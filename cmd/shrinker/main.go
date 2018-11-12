@@ -91,7 +91,7 @@ func (l *linkShrinkHandler) handleShrink(w http.ResponseWriter, r *http.Request)
 	}
 	u.Path = key
 
-	fields["url"] = u.String() + "ddddddddddddd"
+	fields["url"] = u.String()
 }
 
 func (l *linkShrinkHandler) handleExpand(w http.ResponseWriter, r *http.Request) {
