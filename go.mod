@@ -1,3 +1,7 @@
+// +heroku goVersion go1.11
+// +heroku install ./cmd/...
+
+
 module github.com/abdullah2993/lshort
 
 require (
