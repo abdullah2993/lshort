@@ -1,7 +1,6 @@
 // +heroku goVersion go1.11
 // +heroku install ./cmd/...
 
-
 module github.com/abdullah2993/lshort
 
 require (
@@ -14,5 +13,6 @@ require (
 	github.com/gorilla/mux v1.6.2
 	github.com/itchyny/base58-go v0.0.0-20181013094353-56d50cf40874
 	github.com/pkg/errors v0.8.0
+	github.com/writeas/writefreely v0.1.0 // indirect
 	golang.org/x/net v0.0.0-20181108082009-03003ca0c849 // indirect
 )
