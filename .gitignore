@@ -1,1 +1,5 @@
 *.tmp*
+cmd/shrinker/temp.d
+cmd/shrinker/temp.d.lock
+*.exe
+go.sum
